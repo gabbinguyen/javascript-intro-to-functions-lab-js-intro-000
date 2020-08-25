@@ -26,3 +26,7 @@ function sayHiToGrandma(string) {
   }
   return answer;
 }
+sayHiToGrandma("hello");
+sayHiToGrandma("HELLO");
+sayHiToGrandma("I love you, Grandma.");
+
