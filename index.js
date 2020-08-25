@@ -17,15 +17,12 @@ function logWhisper(string) {
 function sayHiToGrandma(string) {
   var answer = "";
   switch (string) {
-    case string.toLowerCase : answer = "I can't hear you!";
+    case string.toLowerCase() : answer = "I can't hear you!";
     break;
-    case string.toUpperCase : answer = "YES INDEED!";
+    case string.toUpperCase() : answer = "YES INDEED!";
     break;
     case "I love you, Grandma" : answer = "I love you, too.";
     break;
   }
   return answer;
 }
-sayHiToGrandma("hello");
-sayHiToGrandma("HELLO");
-sayHiToGrandma("I love you, Grandma.");
